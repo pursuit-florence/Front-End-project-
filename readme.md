@@ -1,3 +1,9 @@
+## URL of deployed front-end-project
+To see the app[click Here](https://melodic-brioche-951aa4.netlify.app/)
+```
+This the project deployed URL: https://melodic-brioche-951aa4.netlify.app/
+```
+
 # # The name of my app
 ```
 Recipe App

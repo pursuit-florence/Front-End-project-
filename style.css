@@ -115,3 +115,15 @@ grid-template:auto /repeat(auto-fit,minmax(300px,1fr));
   background-color: rgb(205, 200, 52);
   
 }
+header{
+  padding: 10px;
+  background-color: rgb(26,26,27);
+  display:flex;
+  flex: 1;
+  justify-content: end;
+  height:50px;
+}
+header a{
+  color:white;
+  font-size: 20px;
+}
