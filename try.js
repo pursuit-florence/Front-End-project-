@@ -32,6 +32,28 @@ function fetchApi(ingredient){
 }
 fetchApi("ingredient")
 
-function getFoodIngredients(results){
 
-}
+
+
+  function getFoodIngredients(results){
+    const divItem = document.createElement("div");
+  div.setAttribute("class","item");
+  section.append(divItem);
+  
+  const img = document.createElement("img")
+  img.setAttribute("src",`${results.recipe.image}`);
+  img.setAttribute("alt","food");
+  img.setAttribute("class","item");
+  section.append(img)
+  
+  const divClass = document.createElement("div")
+  divClass.setAttribute("class","flex-container")
+  section.append(divClass)
+  
+  const h1 = document.createElement("h1")
+  h1.setAttribute("class","title")
+  h1.setAttribute("class","flex-container")
+  
+  const aTag = document.createElement("a")
+  aTag.setAttribute("href",`${results.recipe.url}"target="_blank"`)
+  aTag.textContent = "view recipe"}
